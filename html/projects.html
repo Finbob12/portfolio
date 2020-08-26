@@ -11,29 +11,56 @@
 	<body>
         <header>
 			<nav id="mySidenav" class="sidenav">
-				<a href="../index.html" id="home" class="mylink">Home</a>
-				<a href="about.html" id="about" class="mylink">About</a>
-				<a href="contact.html" id="contact" class="mylink">Contact</a>
-				<a href="#" id="projects" class="mylink">Projects</a>
+				<a href="../index.html" id="home">Home</a>
+				<a href="about.html" id="about">About</a>
+				<a href="contact.html" id="contact">Contact</a>
+				<a href="#" id="projects">Projects</a>
 			</nav>
         </header>
         <h1>Portfolio coming</h1>
     </body>
-	<script type="text/javascript">
-		$(document).ready(function(){
-			var theclick = 0;
-			$(".mylink").click(function(event){
-				if(theclick == 0 && screen.width <=600)
-				{
-					theclick = theclick +1;
-					$(this).addClass("adisable");
-					event.preventDefault();
-				}
-				else
-				{
-					$(this).attr('onClick',"return true");
-				}
-			});
-		});
-	   </script>
+    <script>
+        $(document).ready(function(){
+          function setUp(classname) {
+            var open = false;
+            var myLink = $(classname);
+        
+            
+            function toggleClass(open) {
+              if(open)
+                myLink.addClass('open');
+              else
+              myLink.removeClass('open');
+            }
+        
+            function close() {
+              open = false;
+              myLink.removeClass('open');
+            }
+        
+            myLink.click(function(event){
+              if(open) return;
+        
+              open = true;
+              toggleClass(true);  
+        
+              setTimeout(close, 5000);
+        
+              event.preventDefault();
+              return false;
+            });
+            myLink.hover(function (event) {
+                window.setTimeout(function () {
+                  open = true;
+                  toggleClass(true);
+                  setTimeout(close, 5000);
+                }, 10);
+              });
+          }
+              setUp('#home');
+              setUp('#about');
+            setUp('#contact');
+            setUp('#projects');
+        });
+        </script>
 </html>
