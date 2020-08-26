@@ -11,45 +11,56 @@
 	<body>
         <header>
 			<nav id="mySidenav" class="sidenav">
-				<a href="#" id="home" class="mylink">Home</a>
-				<a href="html/about.html" id="about"  class="mylink">About</a>
-				<a href="html/contact.html" id="contact" class="mylink">Contact</a>
-				<a href="html/projects.html" id="projects" class="mylink">Projects</a>
+				<a href="#" id="home">Home</a>
+				<a href="html/about.html" id="about">About</a>
+				<a href="html/contact.html" id="contact">Contact</a>
+				<a href="html/projects.html" id="projects">Projects</a>
 			</nav>
         </header>
 		<h1>Portfolio coming</h1>
 	</body>
 <script>
-	function toggleClass(open) {
-  if(open)
-    $(".mylink").addClass('open');
-  else
-    $(".mylink").removeClass('open');
-}
-
 $(document).ready(function(){
+  function setUp(classname) {
     var open = false;
+    var myLink = $(classname);
+
+    
+    function toggleClass(open) {
+      if(open)
+        myLink.addClass('open');
+      else
+      myLink.removeClass('open');
+    }
 
     function close() {
       open = false;
-      $(".mylink").removeClass('open');
+      myLink.removeClass('open');
     }
 
-    $(".mylink").click(function(event){
+    myLink.click(function(event){
       if(open) return;
 
       open = true;
       toggleClass(true);  
 
-      setTimeout(close, 500);
+      setTimeout(close, 5000);
 
-      event.preventDefault(return = false);
+	  event.preventDefault();
+	  return false;
     });
-    $(".mylink").hover(function(event) {
-      open = true;
-      toggleClass(true);
-      setTimeout(close, 500);
-    });
+	myLink.hover(function (event) {
+        window.setTimeout(function () {
+          open = true;
+          toggleClass(true);
+          setTimeout(close, 5000);
+        }, 10);
+      });
+  }
+ 	 setUp('#home');
+ 	 setUp('#about');
+    setUp('#contacts');
+    setUp('#projects');
 });
 </script>
 </html>
