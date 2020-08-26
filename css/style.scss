@@ -1,6 +1,8 @@
+$main-font: 'Lato', sans-serif; 
+
 #mySidenav a {
     position: absolute;
-    left: -80px;
+    left: -85px;
     transition: 0.3s;
     padding: 15px;
     width: 100px;
@@ -8,6 +10,8 @@
     font-size: 20px;
     color: black;
     border-radius: 0 5px 5px 0;
+    font-family: $main-font;
+    font-weight: 1000;
   }
   
   #mySidenav a:hover {
@@ -33,3 +37,4 @@
     top: 200px;
     background-color: #d3fac7;
   }
+
