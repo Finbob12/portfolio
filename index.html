@@ -19,21 +19,37 @@
         </header>
 		<h1>Portfolio coming</h1>
 	</body>
-	<script type="text/javascript">
-		$(document).ready(function(){
-			var theclick = 0;
-			$(".mylink").click(function(event){
-				if(theclick == 0 && screen.width <=600)
-				{
-					theclick = theclick +1;
-					$(this).addClass("adisable");
-					event.preventDefault();
-				}
-				else
-				{
-					$(this).attr('onClick',"return true");
-				}
-			});
-		});
-	   </script>
+<script>
+	function toggleClass(open) {
+  if(open)
+    $(".mylink").addClass('open');
+  else
+    $(".mylink").removeClass('open');
+}
+
+$(document).ready(function(){
+    var open = false;
+
+    function close() {
+      open = false;
+      $(".mylink").removeClass('open');
+    }
+
+    $(".mylink").click(function(event){
+      if(open) return;
+
+      open = true;
+      toggleClass(true);  
+
+      setTimeout(close, 500);
+
+      event.preventDefault(return = false);
+    });
+    $(".mylink").hover(function(event) {
+      open = true;
+      toggleClass(true);
+      setTimeout(close, 500);
+    });
+});
+</script>
 </html>
