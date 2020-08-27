@@ -99,13 +99,14 @@ body {
   margin: 20px 0px 0px 0px;
   padding: 0px; }
 
-@media screen and (min-width: 600) {
+@media screen and (min-width: 600px) {
   .logo-container {
     display: flex;
-    flex-direction: row; } }
-@media screen and (min-width: 650) {
-  .body {
-    background-color: black;
-    height: 5000; } }
+    flex-wrap: wrap;
+    flex-direction: row; }
+
+  .logo {
+    width: 500px;
+    height: 500px; } }
 
 /*# sourceMappingURL=style.css.map */
