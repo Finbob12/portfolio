@@ -15,19 +15,19 @@
   left: 0; }
 
 #home {
-  top: 80px;
+  top: 20px;
   background-color: #bcf4f5; }
 
 #about {
-  top: 140px;
+  top: 80px;
   background-color: #b4ebca; }
 
 #contact {
-  top: 200px;
+  top: 140px;
   background-color: #d9f2b4; }
 
 #projects {
-  top: 260px;
+  top: 200px;
   background-color: #d3fac7; }
 
 #github {
