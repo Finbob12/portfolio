@@ -62,14 +62,12 @@
 .header-style {
   background-color: #DAD2D8;
   height: 230px;
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 56%, 0 100%);
-  clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
   padding: 0px;
   margin: 0px; }
 
 .footer-style {
-  position: absolute;
-  background-color: #73FBD3;
+  position: relative;
+  background-color: #143642;
   padding: 0px;
   margin: 0px;
   height: 300px; }
