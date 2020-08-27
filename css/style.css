@@ -1,11 +1,11 @@
 #mySidenav a {
-  position: absolute;
+  position: fixed;
   left: -85px;
   transition: 0.3s;
   padding: 15px;
   width: 100px;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 18px;
   color: black;
   border-radius: 0 5px 5px 0;
   font-family: "Lato", sans-serif;
@@ -15,30 +15,69 @@
   left: 0; }
 
 #home {
-  top: 30px;
+  top: 20px;
   background-color: #bcf4f5; }
 
 #about {
-  top: 90px;
+  top: 80px;
   background-color: #b4ebca; }
 
 #contact {
-  top: 150px;
+  top: 140px;
   background-color: #d9f2b4; }
 
 #projects {
-  top: 210px;
+  top: 200px;
+  background-color: #d3fac7; }
+
+#github {
+  bottom: 20px;
+  background-color: #bcf4f5; }
+
+#twitter {
+  bottom: 80px;
+  background-color: #b4ebca; }
+
+#linkedin {
+  bottom: 140px;
+  background-color: #d9f2b4; }
+
+#medium {
+  bottom: 200px;
   background-color: #d3fac7; }
 
 .main-heading {
   text-align: center;
   font-family: "Quicksand", sans-serif;
-  font-size: 40px; }
+  font-size: 40px;
+  margin: 0px;
+  padding: 0px; }
+
+.sub-heading {
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  margin: 30px 0px 0px 0px;
+  padding: 0px; }
 
 .header-style {
   background-color: #DAD2D8;
-  height: 320px;
+  height: 230px;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 56%, 0 100%);
-  clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%); }
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+  padding: 0px;
+  margin: 0px; }
+
+.footer-style {
+  position: absolute;
+  background-color: #73FBD3;
+  padding: 0px;
+  margin: 0px;
+  height: 300px; }
+
+body {
+  position: relative;
+  background-color: #0F8B8D;
+  margin: 0px;
+  padding: 0px; }
 
 /*# sourceMappingURL=style.css.map */

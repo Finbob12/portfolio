@@ -18,73 +18,74 @@
       </nav>
       <h1 class="main-heading">Finlay George</h1>
         </header>
-    </body>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	<script>
-        $(document).ready(function(){
-          function setUp(classname) {
-            var open = false;
-            var myLink = $(classname);
+      </body>
+      <footer>
+        <nav id="mySidenav" class="sidenav">
+          <a href="https://github.com/Finbob12" id="github">Github</a>
+          <a href="https://twitter.com/The_Sneaker_Dev" id="twitter">Twitter</a>
+          <a href="https://www.linkedin.com/in/finlay-george-b43a891b4/" id="linkedin">LinkedIn</a>
+          <a href="https://medium.com/@finlaytgeorge" id="medium">Medium</a>
+        </nav>
+      </footer>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <script>
+    $(document).ready(function(){
+      function setUp(classname) {
+        var open = false;
+        var myLink = $(classname);
+    
         
-            
-            function toggleClass(open) {
-              if(open)
-                myLink.addClass('open');
-              else
-              myLink.removeClass('open');
-            }
-        
-            function close() {
-              open = false;
-              myLink.removeClass('open');
-            }
-        
-            myLink.click(function(event){
-              if(open) return;
-        
-              open = true;
-              toggleClass(true);  
-        
-              setTimeout(close, 3000);
-        
-              event.preventDefault();
-              return false;
-            });
-            myLink.hover(function (event) {
-                window.setTimeout(function () {
-                  open = true;
-                  toggleClass(true);
-                  setTimeout(close, 3000);
-                }, 10);
-              });
-          }
-              setUp('#home');
-              setUp('#about');
-            setUp('#contact');
-            setUp('#projects');
+        function toggleClass(open) {
+          if(open)
+            myLink.addClass('open');
+          else
+          myLink.removeClass('open');
+        }
+    
+        function close() {
+          open = false;
+          myLink.removeClass('open');
+        }
+    
+        myLink.click(function(event){
+          if(open) return;
+    
+          open = true;
+          toggleClass(true);  
+    
+          setTimeout(close, 3000);
+    
+        event.preventDefault();
+        return false;
         });
-        </script>
-</html>
+      myLink.hover(function (event) {
+            window.setTimeout(function () {
+              open = true;
+              toggleClass(true);
+              setTimeout(close, 3000);
+            }, 10);
+          });
+      }
+        setUp('#home');
+        setUp('#about');
+       setUp('#contact');
+       setUp('#projects');
+       setUp('#github');
+        setUp('#twitter');
+       setUp('#linkedin');
+       setUp('#medium');
+    });
+    </script>
+    </html>
