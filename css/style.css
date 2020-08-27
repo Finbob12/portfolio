@@ -99,4 +99,13 @@ body {
   margin: 20px 0px 0px 0px;
   padding: 0px; }
 
+@media screen and (min-width: 600) {
+  .logo-container {
+    display: flex;
+    flex-direction: row; } }
+@media screen and (min-width: 650) {
+  .body {
+    background-color: black;
+    height: 5000; } }
+
 /*# sourceMappingURL=style.css.map */
