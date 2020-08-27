@@ -1,4 +1,3 @@
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 #mySidenav a {
   position: fixed;
   left: -85px;
@@ -6,11 +5,11 @@
   padding: 15px;
   width: 100px;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 16px;
   color: black;
   border-radius: 0 5px 5px 0;
-  font-family: "Lato", sans-serif;
-  font-weight: 1000; }
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800; }
 
 #mySidenav a:hover {
   left: 0; }
@@ -94,7 +93,7 @@ body {
   padding: 0; }
 
 .logo-name {
-  font-family: "Lato", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 1200;
   font-size: 30px;
   margin: 20px 0px 0px 0px;
@@ -110,7 +109,7 @@ body {
     width: 500px;
     height: 500px; } }
 html {
-  font-family: 'Montserrat', Arial, sans-serif;
+  font-family: "Quicksand", sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%; }
 
@@ -207,7 +206,6 @@ input[type='text']:focus, [type='email']:focus, textarea:focus {
   width: 45%; }
 
 select {
-  background: url("https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-arrow-down-32.png") no-repeat right;
   outline: none;
   -moz-appearance: none;
   -webkit-appearance: none; }
@@ -247,7 +245,7 @@ textarea {
   color: #474544;
   cursor: pointer;
   display: inline-block;
-  font-family: 'Helvetica', Arial, sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 0.875em;
   font-weight: bold;
   outline: none;

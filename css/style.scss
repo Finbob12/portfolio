@@ -1,4 +1,4 @@
-$main-font: 'Lato', sans-serif;
+$main-font: 'Montserrat', sans-serif;
 $heading-font: 'Quicksand', sans-serif;
 
 
@@ -9,11 +9,11 @@ $heading-font: 'Quicksand', sans-serif;
     padding: 15px;
     width: 100px;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 16px;
     color: black;
     border-radius: 0 5px 5px 0;
     font-family: $main-font;
-    font-weight: 1000;
+    font-weight: 800;
   }
     
   #mySidenav a:hover {
@@ -134,10 +134,9 @@ body  {
 }
 }
 
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 html {
-  font-family: 'Montserrat', Arial, sans-serif;
+  font-family: $heading-font;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -252,7 +251,6 @@ input[type='text']:focus, [type='email']:focus, textarea:focus {
 }
 
 select {
-  background: url('https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-arrow-down-32.png') no-repeat right;
   outline: none;
   -moz-appearance: none;
   -webkit-appearance: none;
@@ -301,7 +299,7 @@ textarea {
   color: #474544;
   cursor: pointer;
   display: inline-block;
-  font-family: 'Helvetica', Arial, sans-serif;
+  font-family: $main-font;
   font-size: 0.875em;
   font-weight: bold;
   outline: none;
