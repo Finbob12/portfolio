@@ -15,19 +15,30 @@
   left: 0; }
 
 #home {
-  top: 20px;
+  top: 30px;
   background-color: #bcf4f5; }
 
 #about {
-  top: 80px;
+  top: 90px;
   background-color: #b4ebca; }
 
 #contact {
-  top: 140px;
+  top: 150px;
   background-color: #d9f2b4; }
 
 #projects {
-  top: 200px;
+  top: 210px;
   background-color: #d3fac7; }
+
+.main-heading {
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  font-size: 40px; }
+
+.header-style {
+  background-color: #DAD2D8;
+  height: 320px;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 56%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%); }
 
 /*# sourceMappingURL=style.css.map */
