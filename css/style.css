@@ -19,7 +19,7 @@
   top: 20px;
   background-color: #bcf4f5; }
 
-#about {
+#blog {
   top: 80px;
   background-color: #b4ebca; }
 
@@ -77,8 +77,8 @@
 
 .main-text {
   text-align: center;
-  width: 800px;
-  font-size: 30px;
+  width: 80%;
+  font-size: 25px;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   margin: 20px auto auto auto; }
