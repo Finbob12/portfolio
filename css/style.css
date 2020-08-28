@@ -1,3 +1,4 @@
+/* Navbar styling starts here */
 #mySidenav a {
   position: fixed;
   left: -85px;
@@ -46,6 +47,7 @@
   bottom: 200px;
   background-color: #d3fac7; }
 
+/* Navbar styling ends here */
 .main-heading {
   text-align: center;
   font-family: "Quicksand", sans-serif;
@@ -73,6 +75,14 @@
   margin: 0px;
   height: auto; }
 
+.main-text {
+  text-align: center;
+  width: 800px;
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  margin: 20px auto auto auto; }
+
 body {
   position: relative;
   background: #F2F3EB;
@@ -99,15 +109,7 @@ body {
   margin: 20px 0px 0px 0px;
   padding: 0px; }
 
-@media screen and (min-width: 600px) {
-  .logo-container {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row; }
-
-  .logo {
-    width: 500px;
-    height: 500px; } }
+/* Form styling starts here....its long */
 button, input, select, textarea {
   color: #5A5A5A;
   font: inherit;
@@ -187,9 +189,6 @@ input[type='text']:focus, [type='email']:focus, textarea:focus {
 select {
   outline: none; }
 
-select::-ms-expand {
-  display: none; }
-
 .subject {
   width: 100%; }
 
@@ -213,7 +212,8 @@ textarea {
   font-weight: bold;
   outline: none;
   padding: 20px 35px;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  transition: all 0.3s; }
 
 #form_button:hover {
   background: #474544;
@@ -245,5 +245,6 @@ textarea {
 
   input[type='text'], [type='email'], select, textarea {
     font-size: 0.875em; } }
+/* Form styling ends here */
 
 /*# sourceMappingURL=style.css.map */

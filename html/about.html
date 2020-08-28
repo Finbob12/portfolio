@@ -11,7 +11,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	</head>
 	<body>
-     <header class="header-style">
+     <header class="header-style"> <!-- Navbars are in both header and footer areas though styling is shared by both-->
 			<nav id="mySidenav" class="sidenav">
 				<a href="../index.html" id="home">Home</a>
 				<a href="#" id="about">About</a>
@@ -21,7 +21,7 @@
       <h1 class="main-heading">Finlay George</h1>
      </header>
        <h2 class="sub-heading">About Me</h2>
-       <p>Hi I'm Finlay George. If you're here then you might want to know some more about me. I have a passion for creating things and problem solving, so when I discovered there was a chance of me doing just that as a career, I dropped everything and joined a six month intensive bootcamp to learn to code. Now I'm working on becoming a full-stack dev to push my passion into exciting new projects.</p>
+       <p class="main-text">Hi I'm Finlay George. If you're here then you might want to know some more about me. I have a passion for creating things and problem solving, so when I discovered there was a chance of me doing just that as a career, I dropped everything and joined a six month intensive bootcamp to learn to code. Now I'm working on becoming a full-stack dev to push my passion into exciting new projects.</p>
    </body>
       <footer class="footer-style">
         <nav id="mySidenav" class="sidenav">
@@ -44,7 +44,7 @@
     
     
     
-    <script>
+    <script> //Script to operate navbars. sets a class of "open" so user has to click the same button twice within 3 secs for link to work. This means button can slide out on first click
     $(document).ready(function(){
       function setUp(classname) {
         var open = false;

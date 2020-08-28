@@ -1,7 +1,7 @@
 $main-font: 'Montserrat', sans-serif;
 $heading-font: 'Quicksand', sans-serif;
 
-
+/* Navbar styling starts here */
 #mySidenav a {
     position: fixed;
     left: -85px;
@@ -59,6 +59,7 @@ $heading-font: 'Quicksand', sans-serif;
     bottom: 200px;
     background-color: #d3fac7;
   }
+/* Navbar styling ends here */
 
 .main-heading {
   text-align: center;
@@ -91,6 +92,15 @@ $heading-font: 'Quicksand', sans-serif;
   height: auto;
 }
 
+.main-text  {
+  text-align: center;
+  width: 800px;
+  font-size: 30px;
+  font-family: $main-font;
+  font-weight: 500;
+  margin: 20px auto auto auto;
+}
+
 body  {
   position: relative;
   background: #F2F3EB;
@@ -121,18 +131,7 @@ body  {
   padding: 0px;
 }
 
-@media screen and (min-width: 600px) {
-.logo-container {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-  }
-
-.logo {
-  width: 500px;
-  height: 500px;  
-}
-  }
+/* Form styling starts here....its long */
 
 button, input, select, textarea {
   color: #5A5A5A;
@@ -228,10 +227,6 @@ select {
   outline: none;
 }
 
-select::-ms-expand {
-  display: none;
-}
-
 .subject {
   width: 100%;
 }
@@ -259,6 +254,7 @@ textarea {
   outline: none;
   padding: 20px 35px;
   text-transform: uppercase;
+  transition: all 0.3s;
 }
 
 #form_button:hover {
@@ -305,3 +301,4 @@ textarea {
     font-size: 0.875em;
   }
 }
+/* Form styling ends here */
