@@ -109,6 +109,24 @@ body {
   margin: 20px 0px 0px 0px;
   padding: 0px; }
 
+.blog-posts {
+  /*Nested blog styling*/ }
+  .blog-posts section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; }
+  .blog-posts h4 {
+    font-family: "Quicksand", sans-serif;
+    font-size: 20px; }
+  .blog-posts p {
+    font-family: "Montserrat", sans-serif; }
+
+.blog-image {
+  /*further blog styling*/
+  height: 200px;
+  width: 200px; }
+
 /* Form styling starts here....its long */
 button, input, select, textarea {
   color: #5A5A5A;
