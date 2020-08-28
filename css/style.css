@@ -241,6 +241,7 @@ textarea {
   color: #F2F3EB; }
 
 @media screen and (max-width: 768px) {
+  /*media breakpoint for tablets*/
   #form-container {
     margin: 20px auto;
     width: 95%; }
@@ -258,6 +259,24 @@ textarea {
     margin: 0px 42px 0px 42px;
     font-size: 16px; }
 
+  .project-list section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; }
+  .project-list h4 {
+    font-family: "Quicksand", sans-serif;
+    font-size: 20px; }
+  .project-list p {
+    font-family: "Montserrat", sans-serif;
+    margin: 0px 42px 0px 42px;
+    font-size: 16px; }
+
+  .project-image {
+    height: 250px;
+    width: 250px;
+    filter: brightness(50%); }
+
   .blog-image {
     height: 200px;
     width: 200px; }
@@ -269,7 +288,8 @@ textarea {
     margin: 0px;
     padding: 0px;
     line-height: 1; } }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 480px) {
+  /*media breakpoint for phones*/
   .contact-heading {
     font-size: 18px; }
 
