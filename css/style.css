@@ -61,7 +61,7 @@
   font-family: "Quicksand", sans-serif;
   margin: 30px 0px 0px 0px;
   padding: 0px;
-  font-size: 40px; }
+  font-size: 70px; }
 
 .header-style {
   background-color: #DAD2D8;
@@ -129,6 +129,30 @@ body {
   /*further blog styling*/
   height: 350px;
   width: 350px; }
+
+.project-list {
+  /*nested projects styling*/
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 5% 15% 5% 15%; }
+  .project-list section {
+    text-align: center; }
+  .project-list h4 {
+    font-family: "Quicksand", sans-serif;
+    font-size: 30px; }
+  .project-list p {
+    font-family: "Montserrat", sans-serif;
+    margin: 0px 0px 0px 42px;
+    font-size: 16px; }
+
+.project-image {
+  /*further proects styling*/
+  height: 350px;
+  width: 350px;
+  filter: brightness(50%);
+  margin: auto 10px auto 10px; }
 
 /* Form styling starts here....its long */
 button, input, select, textarea {
@@ -287,7 +311,14 @@ textarea {
     font-size: 70px;
     margin: 0px;
     padding: 0px;
-    line-height: 1; } }
+    line-height: 1; }
+
+  .sub-heading {
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+    margin: 30px 0px 0px 0px;
+    padding: 0px;
+    font-size: 40px; } }
 @media screen and (max-width: 480px) {
   /*media breakpoint for phones*/
   .contact-heading {
