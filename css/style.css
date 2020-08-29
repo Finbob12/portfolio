@@ -189,7 +189,7 @@ form {
   margin: -0.512em auto;
   width: 80px; }
 
-.icon_wrapper {
+.icon-wrapper {
   margin: 50px auto 0;
   width: 100%; }
 
@@ -267,7 +267,7 @@ textarea {
   /*media breakpoint for tablets*/
   #form-container {
     margin: 20px auto;
-    width: 95%; }
+    width: 75%; }
 
   .blog-posts section {
     display: flex;
