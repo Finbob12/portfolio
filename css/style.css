@@ -114,6 +114,10 @@ body {
   width: 350px;
   margin: auto 10px auto 10px; }
 
+#node-logo {
+  /*node logo made slightly wider due to non-square image*/
+  width: 450px; }
+
 /*Nested blog styling*/
 .blog-posts section {
   display: flex;
@@ -154,6 +158,9 @@ body {
     font-family: "Montserrat", sans-serif;
     margin: 0px 0px 0px 42px;
     font-size: 16px; }
+  .project-list a {
+    text-decoration: none;
+    color: inherit; }
 
 .project-image {
   /*further proects styling*/
@@ -309,6 +316,9 @@ textarea {
     font-family: "Montserrat", sans-serif;
     margin: 0px 42px 0px 42px;
     font-size: 16px; }
+  .project-list a {
+    text-decoration: none;
+    color: inherit; }
 
   .project-image {
     height: 250px;

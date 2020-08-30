@@ -139,6 +139,10 @@ body  {
   margin: auto 10px auto 10px;
 }
 
+#node-logo  { /*node logo made slightly wider due to non-square image*/
+  width: 450px;
+}
+
 /*Nested blog styling*/
 .blog-posts { 
 
@@ -194,6 +198,11 @@ h5 {
     margin: 0px 0px 0px 42px;
     font-size: 16px;
     }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
 }
 
 .project-image  { /*further proects styling*/
@@ -385,6 +394,11 @@ textarea {
     margin: 0px 42px 0px 42px;
     font-size: 16px;
     }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
 }
 
 .project-image  {
