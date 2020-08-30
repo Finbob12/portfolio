@@ -70,6 +70,11 @@ $heading-font: 'Quicksand', sans-serif;
   line-height: 2;
 }
 
+.main-heading a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .sub-heading  {
   text-align: center;
   font-family: $heading-font;
@@ -308,7 +313,7 @@ textarea {
   cursor: pointer;
   display: inline-block;
   font-family: $main-font;
-  font-size: 0.875em;
+  font-size: 14px;
   font-weight: bold;
   outline: none;
   padding: 20px 35px;
@@ -319,7 +324,7 @@ textarea {
 #form_button:hover {
   background: #474544;
   color: #F2F3EB;
-}
+} /*form styling ends here*/
 
 @media screen and (max-width: 768px) { /*media breakpoint for tablets*/
   #form-container {
@@ -410,6 +415,11 @@ textarea {
     line-height: 1;
   }
 
+  .main-heading a {
+    text-decoration: none;
+    color: inherit;
+  }
+
   .sub-heading  {
     text-align: center;
     font-family: $heading-font;
@@ -434,11 +444,15 @@ textarea {
   }
   
   input[type='text'], [type='email'], select, textarea {
-    font-size: 0.875em;
+    font-size: 14px;
   }
 
   #form_button {
     padding: 15px 25px;
   }
 }
-/* Form styling ends here */
+
+#form-container {
+  margin: 20px auto;
+  width: 75%;
+}

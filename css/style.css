@@ -56,6 +56,10 @@
   padding: 0px;
   line-height: 2; }
 
+.main-heading a {
+  text-decoration: none;
+  color: inherit; }
+
 .sub-heading {
   text-align: center;
   font-family: "Quicksand", sans-serif;
@@ -252,7 +256,7 @@ textarea {
   cursor: pointer;
   display: inline-block;
   font-family: "Montserrat", sans-serif;
-  font-size: 0.875em;
+  font-size: 14px;
   font-weight: bold;
   outline: none;
   padding: 20px 35px;
@@ -263,6 +267,7 @@ textarea {
   background: #474544;
   color: #F2F3EB; }
 
+/*form styling ends here*/
 @media screen and (max-width: 768px) {
   /*media breakpoint for tablets*/
   #form-container {
@@ -330,6 +335,10 @@ textarea {
     padding: 0px;
     line-height: 1; }
 
+  .main-heading a {
+    text-decoration: none;
+    color: inherit; }
+
   .sub-heading {
     text-align: center;
     font-family: "Quicksand", sans-serif;
@@ -349,10 +358,12 @@ textarea {
     width: 53px; }
 
   input[type='text'], [type='email'], select, textarea {
-    font-size: 0.875em; }
+    font-size: 14px; }
 
   #form_button {
     padding: 15px 25px; } }
-/* Form styling ends here */
+#form-container {
+  margin: 20px auto;
+  width: 75%; }
 
 /*# sourceMappingURL=style.css.map */
