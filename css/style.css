@@ -79,7 +79,6 @@
 
 .footer-style {
   position: relative;
-  background-color: #143642;
   padding: 0px;
   margin: 0px;
   height: auto; }
@@ -336,6 +335,9 @@ button {
         transform: translate3d(0px, 0px, -16px); }
 
 /*styling for resume button ends here*/
+.copyright {
+  float: right; }
+
 @media screen and (max-width: 1200px) {
   /*media breakpoint for tablets*/
   #form-container {

@@ -93,7 +93,6 @@ $heading-font: 'Quicksand', sans-serif;
 
 .footer-style {
   position: relative;
-  background-color: #143642;
   padding: 0px;
   margin: 0px;
   height: auto;
@@ -402,6 +401,10 @@ button {
     }
   }
 } /*styling for resume button ends here*/
+
+.copyright  {
+  float: right;
+}
 
 @media screen and (max-width: 1200px) { /*media breakpoint for tablets*/
   #form-container {
