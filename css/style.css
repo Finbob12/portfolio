@@ -18,35 +18,35 @@
 
 #home {
   top: 20px;
-  background-color: #bcf4f5; }
+  background-color: #55D6BE; }
 
 #blog {
   top: 80px;
-  background-color: #b4ebca; }
+  background-color: #0496FF; }
 
 #contact {
   top: 140px;
-  background-color: #d9f2b4; }
+  background-color: #FFBC42; }
 
 #projects {
   top: 200px;
-  background-color: #d3fac7; }
+  background-color: #397367; }
 
 #github {
   bottom: 20px;
-  background-color: #bcf4f5; }
+  background-color: #55D6BE; }
 
 #twitter {
   bottom: 80px;
-  background-color: #b4ebca; }
+  background-color: #0496FF; }
 
 #linkedin {
   bottom: 140px;
-  background-color: #d9f2b4; }
+  background-color: #FFBC42; }
 
 #medium {
   bottom: 200px;
-  background-color: #d3fac7; }
+  background-color: #397367; }
 
 /* Navbar styling ends here */
 .main-heading {
