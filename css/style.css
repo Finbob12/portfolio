@@ -287,7 +287,8 @@ textarea {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 40px auto 40px auto; }
+  margin: 40px auto 40px auto;
+  font-family: "Montserrat", sans-serif; }
 
 button {
   position: relative;
