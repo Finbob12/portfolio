@@ -409,16 +409,17 @@ textarea {
     text-align: center; }
   .blog-posts h4 {
     font-family: "Quicksand", sans-serif;
-    font-size: 20px; }
+    font-size: 35px;
+    margin: 20px auto auto auto; }
   .blog-posts p {
     font-family: "Montserrat", sans-serif;
-    margin: 0px 42px 0px 42px;
+    margin: 0px 42px 40px 42px;
     font-size: 16px; }
   .blog-posts h5 {
     font-family: "Quicksand", sans-serif;
     margin: 0px;
     padding: 0px;
-    font-size: 40px; }
+    font-size: 15px; }
 
   .project-list section {
     display: flex;
@@ -471,7 +472,7 @@ textarea {
   .main-heading {
     text-align: center;
     font-family: "Quicksand", sans-serif;
-    font-size: 70px;
+    font-size: 80px;
     margin: 0px;
     padding: 0px;
     line-height: 1; }
