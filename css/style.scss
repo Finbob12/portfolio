@@ -359,7 +359,7 @@ button {
   font-size: inherit;
   font-family: inherit;
   &.resume-button {
-    font-weight: 600;
+    font-weight: 800;
     color: #382b22;
     text-transform: uppercase;
     padding: 10px 24px;
@@ -548,7 +548,7 @@ button {
   }
   
   input[type='text'], [type='email'], select, textarea {
-    font-size: 14px;
+    font-size: 13px;
   }
 
   #form_button {
@@ -558,7 +558,7 @@ button {
 
 #form-container {
   margin: 20px auto;
-  width: 75%;
+  width: 73%;
 }
 
 .blog-posts {
