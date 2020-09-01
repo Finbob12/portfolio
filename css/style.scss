@@ -23,42 +23,42 @@ $heading-font: 'Quicksand', sans-serif;
 
   #home {
     top: 20px;
-    background-color: #55D6BE;
+    background-color: #00E8FC;
   }
   
   #blog {
     top: 80px;
-    background-color: #0496FF;
+    background-color: #F96E46;
   }
   
   #contact {
     top: 140px;
-    background-color: #FFBC42;
+    background-color: #F9C846;
   }
   
   #projects {
     top: 200px;
-    background-color: #397367;
+    background-color: #55D6BE;
   }
 
   #github {
     bottom: 20px;
-    background-color: #55D6BE;
+    background-color: #00E8FC;
   }
   
   #twitter {
     bottom: 80px;
-    background-color: #0496FF;
+    background-color: #F96E46;
   }
   
   #linkedin {
     bottom: 140px;
-    background-color: #FFBC42;
+    background-color: #F9C846;
   }
   
   #medium {
     bottom: 200px;
-    background-color: #397367;
+    background-color: #55D6BE;
   }
 /* Navbar styling ends here */
 
@@ -140,6 +140,10 @@ body  {
 
 #node-logo  { /*node logo made slightly wider due to non-square image*/
   width: 450px;
+}
+
+#css-logo { /*css logo narrowed slightly due to chonk*/
+  width: 240px;
 }
 
 /*Nested blog styling*/
@@ -506,6 +510,10 @@ button {
   width: 450px;
 }
 
+#css-logo { /*css logo narrowed slightly due to chonk*/
+  width: 200px;
+}
+
   .blog-image {
     height: 300px;
     width: 300px;
@@ -577,7 +585,7 @@ button {
   
   p {
     font-family: $main-font;
-    margin: 0px 42px 40px 42px;
+    margin: 0px 48px 40px 48px;
     font-size: 16px;
     }
 
@@ -648,6 +656,10 @@ button {
 #node-logo  { /*node logo made slightly wider due to non-square image*/
   width: 300px;
   height: 200px;
+}
+
+#css-logo { /*css logo narrowed slightly due to chonk*/
+  width: 160px;
 }
 
   .blog-image {
