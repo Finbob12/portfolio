@@ -50,7 +50,7 @@
 
 /* Navbar styling ends here */
 .main-heading {
-  /*styling for h1*/
+  /*styling for h1 thats on every page*/
   text-align: center;
   font-family: "Quicksand", sans-serif;
   font-size: 100px;
@@ -341,6 +341,7 @@ button {
 
 /*styling for resume button ends here*/
 .copyright {
+  /*copyright text interferes with nav without this*/
   float: right; }
 
 @media screen and (max-width: 1200px) {
@@ -349,6 +350,7 @@ button {
     margin: 20px auto;
     width: 75%; }
 
+  /*nested blog styling*/
   .blog-posts section {
     display: flex;
     flex-direction: column;
@@ -368,8 +370,8 @@ button {
     padding: 0px;
     font-size: 20px; }
 
+  /*nested projects styling*/
   .project-list {
-    /*nested projects styling*/
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -395,6 +397,7 @@ button {
     filter: brightness(50%);
     margin: auto 10px auto 10px; }
 
+  /*nested logo list styling*/
   .logo-container section {
     display: flex;
     flex-direction: column;
@@ -411,6 +414,7 @@ button {
     text-align: center; }
 
   .logo {
+    /*landing page logo list styling*/
     height: 300px;
     width: 300px; }
 
@@ -447,6 +451,7 @@ button {
 @media screen and (max-width: 500px) {
   /*media breakpoint for phones*/
   .contact-heading {
+    /*form styling*/
     font-size: 18px; }
 
   .icon {
@@ -466,6 +471,7 @@ button {
     margin: 20px auto;
     width: 73%; }
 
+  /*nested blog styling*/
   .blog-posts section {
     display: flex;
     flex-direction: column;
@@ -485,6 +491,7 @@ button {
     padding: 0px;
     font-size: 15px; }
 
+  /*nested project styling*/
   .project-list section {
     display: flex;
     flex-direction: column;
@@ -506,6 +513,7 @@ button {
     width: 250px;
     filter: brightness(50%); }
 
+  /*nested logo list styling*/
   .logo-container section {
     display: flex;
     flex-direction: column;
