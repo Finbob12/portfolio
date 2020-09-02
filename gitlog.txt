@@ -1,0 +1,269 @@
+commit 7b04a9597ea66cea7a5506a341774e887676d6cf
+Author: Finlay <finlaytgeorge@gmail.com>
+Date:   Wed Sep 2 15:31:11 2020 +1000
+
+    changed social media and resume links to open in new tab. final commit before submission
+
+commit bf5aa652c8eab8af2da0abd578c1a4824411c855
+Author: Finlay <finlaytgeorge@gmail.com>
+Date:   Tue Sep 1 19:54:41 2020 +1000
+
+    regen SRI for presentation tomorrow
+
+commit 782157265838b8bc09eb01a4d3754943422038ad
+Author: Finlay <finlaytgeorge@gmail.com>
+Date:   Tue Sep 1 19:37:58 2020 +1000
+
+    added further code commentary in spots it was needed
+
+commit 3a283e246c8909116a82740a71ae7ca936ce578f
+Author: Finlay <finlaytgeorge@gmail.com>
+Date:   Tue Sep 1 15:40:23 2020 +1000
+
+    added SRI hash
+
+commit c734a2d45ce561d79e208351d9ce617ed8d46b4b
+Author: Finlay <finlaytgeorge@gmail.com>
+Date:   Tue Sep 1 15:23:43 2020 +1000
+
+    changed colour of navbars. adjusted css logo sizing
+
+commit 4ea4de491222bbdcc4068192636c1ee34391f5a5
+Author: Finlay <finlaytgeorge@gmail.com>
+Date:   Tue Sep 1 11:15:28 2020 +1000
+
+    resized all images
+
+commit 5846b766a539ac6683931d2afb81c2aa8f6c78fe
+Author: Finlay <finlaytgeorge@gmail.com>
+Date:   Tue Sep 1 10:46:46 2020 +1000
+
+    minor styling adjustments for mobie
+
+commit 6457127f4b27e49596e319a1f89fc7fe6babed2a
+Author: Finlay <finlaytgeorge@gmail.com>
+Date:   Tue Sep 1 08:59:48 2020 +1000
+
+    styled resume button font to match site
+
+commit 74ee83fe6072034c83a600e742e3183e196a4a26
+Author: Finlay <finlaytgeorge@gmail.com>
+Date:   Mon Aug 31 20:47:46 2020 +1000
+
+    added copyright to bottom of all pages. added resume pdf to doc folder. added link to resume in index button
+
+commit fc1ee658b38eec9da0b6cfc03abf66cd61f66f01
+Author: Finlay <finlaytgeorge@gmail.com>
+Date:   Mon Aug 31 18:25:18 2020 +1000
+
+    added button for resume download
+
+commit 257f83234560b543c217b26a1304c52f2d410d06
+Author: Finlay <finlaytgeorge@gmail.com>
+Date:   Mon Aug 31 13:47:51 2020 +1000
+
+    changed nav colours to be more visible
+
+commit eeed76b423c97c65688ad3bb01a117afba51f559
+Author: Finlay <finlaytgeorge@gmail.com>
+Date:   Mon Aug 31 13:17:30 2020 +1000
+
+    fixed incorrect blog heading sizes
+
+commit f965c7e297d2a44de5ace93eab3873bbf9a84c1d
+Author: Finlay <finlaytgeorge@gmail.com>
+Date:   Mon Aug 31 13:10:03 2020 +1000
+
+    added breakpoint styling for tablets
+
+commit 19674754fc9bd4ea343fd2cde58c34c54f3737d2
+Author: Finlay <finlaytgeorge@gmail.com>
+Date:   Mon Aug 31 09:37:34 2020 +1000
+
+    added links to github to projects page so these can be update to real projects later. links also styled
+
+commit c273974ed9b76a2c91c7360b4a867f6f62131f4d
+Author: Finlay <finlaytgeorge@gmail.com>
+Date:   Mon Aug 31 09:10:56 2020 +1000
+
+    added publish dates to blog and styled them
+
+commit fb52d8fe2afe8d749e28d65aa5776efc841b8058
+Author: Finlay <finlaytgeorge@gmail.com>
+Date:   Sun Aug 30 15:52:06 2020 +1000
+
+    added home link to title on each page. removed some misbehaving media breakpoints
+
+commit 3b281d997118883dcaaa3b26d756a344f5e36f63
+Author: Finlay <finlaytgeorge@gmail.com>
+Date:   Sat Aug 29 12:50:01 2020 +1000
+
+    changed size of contact form so nav would operate on mobile
+
+commit 278b955d288abb55120e504cc0601470637244fa
+Author: Finlay <finlaytgeorge@gmail.com>
+Date:   Sat Aug 29 12:33:08 2020 +1000
+
+    refactored index to better wrk with flexbox when screen sizes adjust
+
+commit 50b00f352f9b99041a6bc65c3090bf994468dac3
+Author: Finlay <finlaytgeorge@gmail.com>
+Date:   Sat Aug 29 12:16:02 2020 +1000
+
+    made projects page more responsive for more media sizes
+
+commit fb71b8159ab9084a50eff9239cf1d9026ad15ec1
+Author: Finlay <finlaytgeorge@gmail.com>
+Date:   Fri Aug 28 21:19:22 2020 +1000
+
+    added images for projects to doc. added divs and images + styling to projects page
+
+commit 56409712f35759c0aed9427c62daad6f559d4c3e
+Author: Finlay <finlaytgeorge@gmail.com>
+Date:   Fri Aug 28 16:18:03 2020 +1000
+
+    added media breakpoint styling for blog page
+
+commit 8d678486a0c15bdefabfef6c5a196fb022060fde
+Author: Finlay <finlaytgeorge@gmail.com>
+Date:   Fri Aug 28 15:41:42 2020 +1000
+
+    added images to doc for blog. added blog posts and images as well as styling for blog page
+
+commit ee89aef6a3f91ec8da2e6c1bb3c95448f0834fa9
+Author: Finlay <finlaytgeorge@gmail.com>
+Date:   Fri Aug 28 14:45:05 2020 +1000
+
+    added about section to index and replaced about page with blog page
+
+commit 1892d3238c733c4bb8797dd2899f248dccddc342
+Author: Finlay <finlaytgeorge@gmail.com>
+Date:   Fri Aug 28 13:56:29 2020 +1000
+
+    heading size change to look better on more devices
+
+commit b013eec2e06baca4aa45c2a41ccb8d387389baf2
+Author: Finlay <finlaytgeorge@gmail.com>
+Date:   Fri Aug 28 13:51:41 2020 +1000
+
+    code commentary added
+
+commit a5b993691fe62d03c8b59bfb1e7e581f0d4d1d83
+Author: Finlay <finlaytgeorge@gmail.com>
+Date:   Fri Aug 28 11:55:43 2020 +1000
+
+    fixed up some sloppy selectors. added text to about.html
+
+commit 79febe595ee2154152a8845e58fc414737f194cd
+Author: Finlay <finlaytgeorge@gmail.com>
+Date:   Thu Aug 27 21:13:07 2020 +1000
+
+    moved top left navbar as font changed spacing
+
+commit f5c1826f8b8a686d4b4a57bd3699b33d9a0dfee5
+Author: Finlay <finlaytgeorge@gmail.com>
+Date:   Thu Aug 27 21:09:45 2020 +1000
+
+    added montserrat font and changed main font to it
+
+commit f150c52be28a4cb3cc00f1fe3a2c758ccdb1c84e
+Author: Finlay <finlaytgeorge@gmail.com>
+Date:   Thu Aug 27 20:57:43 2020 +1000
+
+    added contact form and styling
+
+commit 9edeb3857e48e166109c7edae097e98a8ca0ae8a
+Author: Finlay <finlaytgeorge@gmail.com>
+Date:   Thu Aug 27 20:29:28 2020 +1000
+
+    fixed breakpoint issue
+
+commit 8d64e1be75a24ea38a5b67fc2b9d9c55f202654a
+Author: Finlay <finlaytgeorge@gmail.com>
+Date:   Thu Aug 27 20:06:25 2020 +1000
+
+    added media breakpoints, not working
+
+commit a088424ba07b67a7b85a15de9e838ffc8417e149
+Author: Finlay <finlaytgeorge@gmail.com>
+Date:   Thu Aug 27 16:12:36 2020 +1000
+
+    added technologies list with logos to index
+
+commit 74fea988756378ecdda512bf3d9c897a309720dc
+Author: Finlay <finlaytgeorge@gmail.com>
+Date:   Thu Aug 27 13:43:48 2020 +1000
+
+    removed slope due to layering issues. added footer to all pages. added filler text to all pages
+
+commit a5567106014bf8969fdffba1e80293910aaf352a
+Author: Finlay <finlaytgeorge@gmail.com>
+Date:   Thu Aug 27 12:58:21 2020 +1000
+
+    added social navbars to bottom of page
+
+commit c5bcd39ef9537c98d57e00651107ff3313916b4a
+Author: Finlay <finlaytgeorge@gmail.com>
+Date:   Thu Aug 27 10:31:44 2020 +1000
+
+    header styled on all pages
+
+commit 3b4d468a5b6ce88cb2a3ce692845a8cd9f45c973
+Author: Finlay <finlaytgeorge@gmail.com>
+Date:   Wed Aug 26 20:11:36 2020 +1000
+
+    changed timing window
+
+commit bccffcbf0ca93978f9113ddf641af249e198cb4c
+Author: Finlay <finlaytgeorge@gmail.com>
+Date:   Wed Aug 26 19:33:32 2020 +1000
+
+    fixed script to be mobile reponsive
+
+commit 4b6c4f2c29b2c38b41ad99ed06aaf87681d72260
+Author: Finlay <finlaytgeorge@gmail.com>
+Date:   Wed Aug 26 19:04:25 2020 +1000
+
+    testing script
+
+commit 41bd016a2deec8662712b325ee228bf1b19658aa
+Author: Finlay <finlaytgeorge@gmail.com>
+Date:   Wed Aug 26 17:51:27 2020 +1000
+
+    added script with media breakpoint so navbar works on mobile and desktop
+
+commit f38fa21f62992682b17a881ce6f3aa743bb5b7aa
+Author: Finlay <finlaytgeorge@gmail.com>
+Date:   Wed Aug 26 17:01:17 2020 +1000
+
+    changed font
+
+commit 049e31c5ad4b343a553a9c29c4591a1baecdda3e
+Author: Finlay <finlaytgeorge@gmail.com>
+Date:   Wed Aug 26 16:46:49 2020 +1000
+
+    added navbars to all filesincluding styling
+
+commit 619c0be34d34e83c464f3ea5547a1f33883dad72
+Author: Finlay <finlaytgeorge@gmail.com>
+Date:   Wed Aug 26 13:20:04 2020 +1000
+
+    testing speed of git push to live site
+
+commit 8ea6c399beb0b98785daf68df001bf39bd4c273c
+Author: Finlay <finlaytgeorge@gmail.com>
+Date:   Wed Aug 26 09:39:36 2020 +1000
+
+    added readme
+
+commit 72eb2d81e25e52ad96b0ab7e3e4e7ebf00c5d9db
+Author: Finlay <finlaytgeorge@gmail.com>
+Date:   Wed Aug 26 09:27:22 2020 +1000
+
+    added html files
+
+commit 2f4fc222e72d81e9a1a1e52ce459c68e011acd9d
+Author: Finlay <finlaytgeorge@gmail.com>
+Date:   Mon Aug 24 16:25:18 2020 +1000
+
+    initial commit
